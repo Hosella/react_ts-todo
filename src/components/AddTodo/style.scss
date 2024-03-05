@@ -1,0 +1,31 @@
+$INPUT_MARGIN: 17px;
+
+.AddTodo {
+  margin: 30px;
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__input {
+    margin-bottom: $INPUT_MARGIN;
+  }
+
+  &__button {
+    width: 120px;
+    align-self: flex-end;
+  }
+}
+
+.error {
+  border-color: red;
+}
+
+.error_text {
+  margin: 0;
+  margin-top: -$INPUT_MARGIN;
+  padding: 0;
+  font-size: small;
+  color: red;
+}
